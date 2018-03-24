@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>me.ltang</groupId>
+		<artifactId>fork-smart-sso</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>smart-sso</artifactId>
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+	
+	<!-- 日志邮箱参数应用级：不同的应用可能异常通知邮箱不同 -->
+	<properties>
+	</properties>
+
+	<modules>
+		<module>smart-sso-client</module>
+		<module>smart-sso-demo</module>
+		<module>smart-sso-server</module>
+	</modules>
+</project>
